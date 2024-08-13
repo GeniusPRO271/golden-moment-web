@@ -14,11 +14,12 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        primary: '#fcf6f1', // Custom primary color
-        secondary: '#3e0808', // Custom secondary color
-        foreground: "#825F45",
-        button: "#825F45",
-        card: "#f3d468"
+        primary: '#363636', // Custom primary color
+        subtitle: "#ADADAD",
+        lightgold: '#D9C590',
+        secondary: '#242F40', // Custom secondary color
+        foreground: "#E5E5E5",
+        gold: "#CCA43B"
 
       },
     },

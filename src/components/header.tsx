@@ -36,7 +36,7 @@ const Header = () => {
             Privacy
           </a>
         </div>
-        <div className="hidden md:flex gap-6 justify-end items-baseline font-medium text-slate-500/70">
+        <div className="hidden md:flex gap-6 justify-end items-baseline font-medium text-primary">
           <a id="nav-desktop-get-started" title="Get Started with GoldenMoment" href="https://app.goldenmoment.ai">
             <div className="px-3 pb-px shadow-button-light select-none active:shadow-none active:ring-[0.5px] active:ring-zinc-900/10 inline-flex items-center justify-center whitespace-nowrap text-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border-[0.5px] border-black/15 h-8 sm:h-8 bg-white text-slate-800 hover:text-black hover:border-transparent hover:bg-slate-700/[8%] font-semibold rounded-lg group-[.stuck]:hover:bg-gray-700 group-[.stuck]:active:bg-gray-900 group-[.stuck]:bg-black group-[.stuck]:text-white shadow-none group-[.stuck]:border-transparent active:bg-gray-300 -translate-y-0.5 flex flex-row">
               <div className="flex gap-1 items-center justify-center" style={{ width: 'auto', opacity: 1 }}>
