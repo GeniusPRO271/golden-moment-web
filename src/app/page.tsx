@@ -30,7 +30,7 @@ export default function Home() {
               <div className="w-5 h-5 xs:w-7 xs:h-7 rounded-full bg-white"></div>
             </div>
             <span className="pr-1.5 xs:pr-3 group-hover:text-slate-900 transition-colors text-primary">
-              See the launch video
+              Ver video de presentacion
             </span>
           </div>
         </button>

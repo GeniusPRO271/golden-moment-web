@@ -2,7 +2,7 @@ import React from 'react';
 
 const PricingSection = () => {
   return (
-    <div className="my-[90px] mx-2 sm:mx-7 5xl:mx-0 p-2 xs:p-0 sm:p-0 flex flex-col gap-7 sm:gap-3 max-w-4xl self-center w-full ">
+    <div id="planes" className="my-[90px] mx-2 sm:mx-7 5xl:mx-0 p-2 xs:p-0 sm:p-0 flex flex-col gap-7 sm:gap-3 max-w-4xl self-center w-full ">
       <h1 className="text-4xl pb-4 font-bold text-center text-primary tracking-tight">
         Empieza hoy
       </h1>
@@ -11,10 +11,10 @@ const PricingSection = () => {
           <h3 className="pt-5 text-3xl font-semibold text-primary mb-1.5">Entrega Mensual</h3>
           <h4 className="text-xl text-subtitle font-semibold">Recibe un nuevo paquete cada mes.</h4>
           <div className="flex gap-2 items-center mt-3">
-            <span className="font-bold text-5xl text-primary">$0</span>
-            <span className="text-subtitle text-base font-medium">al mes</span>
+            <span className="font-bold text-5xl text-primary">$5.000</span>
+            <span className="text-subtitle text-base font-medium">CLP al mes</span>
           </div>
-          <a title="Sign up for Limitless" href="https://app.limitless.ai">
+          <a title="Sign up for Limitless" >
             <button className="shadow-button-light select-none active:shadow-none active:ring-[0.5px] active:ring-foreground inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border-[0.5px] border-foreground h-8 sm:h-8 mt-7 mb-5 bg-gray-100 border-none text-primary text-[1.1rem] pt-5 px-6 pb-[1.4rem] rounded-xl shadow-none font-semibold hover:bg-foreground active:bg-foreground" id="pricing-sign-up">
               <div className="flex flex-row">
                 <div className="flex gap-1 items-center justify-center" style={{ width: 'auto', opacity: 1 }}>
@@ -60,14 +60,14 @@ const PricingSection = () => {
           <h3 className="pt-5 text-3xl font-semibold text-primary mb-1.5">Entrega Semanal</h3>
           <h4 className="text-xl text-subtitle font-semibold">Recibe un nuevo paquete cada semana.</h4>
           <div className="flex gap-2 items-center mt-3">
-            <span className="font-bold text-5xl text-slate-900">$0</span>
-            <span className="text-subtitle text-base font-medium">al mes</span>
+            <span className="font-bold text-5xl text-primary">$10.000</span>
+            <span className="text-subtitle text-base font-medium">CLP al mes</span>
           </div>
-          <a title="Sign up for Limitless" href="https://app.limitless.ai">
+          <a title="Sign up for Limitless" >
             <button className="shadow-button-light select-none active:shadow-none active:ring-[0.5px] active:ring-foreground inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border-[0.5px] border-foreground h-8 sm:h-8 mt-7 mb-5 bg-gray-100 border-none text-primary text-[1.1rem] pt-5 px-6 pb-[1.4rem] rounded-xl shadow-none font-semibold hover:bg-foreground active:bg-foreground" id="pricing-sign-up">
               <div className="flex flex-row">
                 <div className="flex gap-1 items-center justify-center" style={{ width: 'auto', opacity: 1 }}>
-                  Sign up
+                  Suscribete
                 </div>
               </div>
             </button>
@@ -116,7 +116,7 @@ const PricingSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
