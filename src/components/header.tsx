@@ -24,6 +24,7 @@ const Header = () => {
           <a
             className="hover:text-slate-800 hover:bg-slate-700/[8%] px-4 py-2 rounded-full transition-colors duration-100 ease-out"
             id="nav-desktop-pendant"
+            href='/#nuestraMision'
           >
             Nuestra Mision
           </a>

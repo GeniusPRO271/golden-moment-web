@@ -1,3 +1,4 @@
+import OurMission from "@/components/ourmission";
 import PricingSection from "@/components/pricingSection";
 
 export default function Home() {
@@ -69,6 +70,7 @@ export default function Home() {
       </div>
 
       <PricingSection />
+      <OurMission />
     </div>
 
   );
